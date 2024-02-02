@@ -31,12 +31,12 @@ export default function HeroSection() {
       <Swiper {...params}>
         {images.map((image, index) => (
           <SwiperSlide key={image}>
-            <div
-              className="hero-slide d-flex align-items-center justify-content-center flex-column font-color-white py-5"
-              style={{
-                backgroundImage: `url("${image}")`
-              }}
-            >
+            <<div
+  className="hero-slide d-flex align-items-center justify-content-center flex-column font-color-white py-5"
+  style={{
+    backgroundImage: `url("/images/DEERANDHUNTER.png")`
+  }}
+>
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
               Unleash the Outdoors
               </p>
