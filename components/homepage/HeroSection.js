@@ -31,10 +31,10 @@ export default function HeroSection() {
       <Swiper {...params}>
         {images.map((image, index) => (
           <SwiperSlide key={image}>
-            <<div
+            <div
   className="hero-slide d-flex align-items-center justify-content-center flex-column font-color-white py-5"
   style={{
-    backgroundImage: `url("/images/DEERANDHUNTER.png")`
+    backgroundImage: `url(https://discord.com/channels/@me/1194022407812427876/1202883635011649557)`
   }}
 >
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
